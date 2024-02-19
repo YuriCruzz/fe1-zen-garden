@@ -21,3 +21,11 @@ body {
     border-radius: 20px;
     text-align: center;
 }
+
+a {
+    color: #838383;
+}
+
+a:hover {
+    color: #061539;
+}
