@@ -1,3 +1,15 @@
+@font-face {
+    font-family: pok;
+    src: url("estetica/fontes/Pokemon_X_and_Y.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: pix;
+    src: url(estetica/fontes/Pixel_Digivolve.otf) format("truetype");
+    font-weight: normal;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -6,11 +18,10 @@ html, body {
 html {
     background: rgb(53,25,79);
     background: linear-gradient(0deg, rgba(53,25,79,1) 35%, rgba(0,0,0,1) 100%);
-    background-blend-mode: overlay;
-    background-repeat: repeat;
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    background-blend-mode: overlay;
+    font-family: 'pok', sans-serif;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +36,22 @@ body {
     margin-bottom: 50px;
     border-radius: 20px;
     text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "pix", sans-serif;
+}
+
+extra1::after {
+    z-index: 2;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    right: -350px;
+    top: 2000px;
+    background-image: url(estetica/imagens/gengar-png-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 a {
