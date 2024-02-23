@@ -1,6 +1,6 @@
 @font-face {
     font-family: pok;
-    src: url("estetica/fontes/Pokemon_X_and_Y.ttf") format("truetype");
+    src: url(estetica/fontes/Pokemon_Classic.ttf) format("truetype");
     font-weight: normal;
 }
 
@@ -42,14 +42,26 @@ h1, h2, h3 {
     font-family: "pix", sans-serif;
 }
 
-extra1::after {
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+extra2::before {
     z-index: 2;
     height: 800px;
     width: 100%;
     position: absolute;
     right: -350px;
     top: 2000px;
-    background-image: url(estetica/imagens/gengar-png-removebg-preview.png);
+    background-image: url(estetica/imagens/boll-gengar-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
 }
