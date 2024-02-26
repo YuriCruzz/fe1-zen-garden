@@ -31,7 +31,7 @@ body {
     background: white;
     border: 5px black solid;
     width: 694px;
-    max-width: 650px;
+    max-width: 850px;
     margin-top: 160px;
     margin-bottom: 50px;
     border-radius: 20px;
@@ -54,13 +54,13 @@ h3 {
     font-size: 20px;
 }
 
-extra2::before {
+.extra2 {
     z-index: 2;
     height: 800px;
     width: 100%;
     position: absolute;
     right: -350px;
-    top: 2000px;
+    top: 3500px;
     background-image: url(estetica/imagens/boll-gengar-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
