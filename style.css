@@ -16,10 +16,11 @@ html, body {
 }
 
 html {
-    background: rgb(53,25,79);
-    background: linear-gradient(0deg, rgba(53,25,79,1) 35%, rgba(0,0,0,1) 100%);
-    background-attachment: fixed;
+    background: #2e004d;
+    background-image: url(estetica/imagens/you-know-they-used-to-call-this-place-lavender-city-before-v0-b4wwiqwjrbf81.webp);
     background-blend-mode: overlay;
+    background-repeat: repeat;
+    background-attachment: fixed;
     font-family: 'pok', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -30,7 +31,8 @@ html {
 body {
     background: white;
     border: 5px black solid;
-    width: 694px;
+    padding: 50px;
+    width: 940px;
     max-width: 850px;
     margin-top: 160px;
     margin-bottom: 50px;
@@ -43,24 +45,48 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 65px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.extra1 {
+    z-index: -1;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: 450px;
+    top: 0px;
+    background-image: url(estetica/imagens/gengar-png-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .extra2 {
+    z-index: -1;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: -450px;
+    top: 1650px;
+    background-image: url(estetica/imagens/mega-gengar-png-download-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.extra3 {
     z-index: 2;
     height: 800px;
     width: 100%;
     position: absolute;
-    right: -350px;
-    top: 3500px;
+    left: 450px;
+    top: 3200px;
     background-image: url(estetica/imagens/boll-gengar-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
