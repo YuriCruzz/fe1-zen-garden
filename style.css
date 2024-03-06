@@ -71,9 +71,9 @@ li {
 .extra1 {
     z-index: -1;
     height: 300px;
-    width: 400px;
+    width: 500px;
     position: absolute;
-    left: 450px;
+    right: 500px;
     top: 0px;
     background-image: url(estetica/imagens/gengar-png-removebg-preview.png);
     background-repeat: no-repeat;
@@ -81,11 +81,11 @@ li {
 }
 
 .extra2 {
-    z-index: 1;
+    z-index: -1;
     height: 400px;
     width: 400px;
     position: absolute;
-    left: -700px;
+    left: 400px;
     top: 1650px;
     background-image: url(estetica/imagens/gastyle.png.png);
     background-repeat: no-repeat;
@@ -93,11 +93,11 @@ li {
 }
 
 .extra3 {
-    z-index: 1;
+    z-index: -1;
     height: 400px;
     width: 400px;
     position: absolute;
-    left: 700px;
+    right: 350px;
     top: 1650px;
     background-image: url(estetica/imagens/hunter.png.png);
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ li {
     height: 800px;
     width: 400px;
     position: absolute;
-    left: 450px;
+    left: 600px;
     top: 3250px;
     background-image: url(estetica/imagens/gengar-fofo.png.png);
     background-repeat: no-repeat;
